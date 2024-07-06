@@ -1,6 +1,6 @@
 let recomen = "";
 async function Recomen() {
-  let data = await fetch("https://github.com/Mohammad02120/Mohammad02120.github.io/blob/main/db.json/card-2");
+  let data = await fetch("https://my-json-server.typicode.com/Mohammad02120/battlenetjson-part-4/card-3");
   let res = await data.json();
   recomen = res.map((elem) => {
     return `
