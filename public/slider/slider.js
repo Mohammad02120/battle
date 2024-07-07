@@ -1,6 +1,6 @@
 let slider = "";
 async function Slider() {
-  let data = await fetch("https://github.com/Mohammad02120/Mohammad02120.github.io/blob/main/db.json/slider");
+  let data = await fetch("https://raw.githubusercontent.com/Mohammad02120/json-server/main/db.json/slider");
   let res = await data.json();
   slider = res.map((elem) => { 
   return `

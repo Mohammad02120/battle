@@ -1,6 +1,6 @@
 let header = "";
 async function Header() {
-  let data = await fetch("https://github.com/Mohammad02120/Mohammad02120.github.io/blob/main/db.json/header");
+  let data = await fetch("https://raw.githubusercontent.com/Mohammad02120/json-server/main/db.json/header");
   let res = await data.json();
   header = res.map((elem) => { 
     if(elem.dropdown.length===0){
