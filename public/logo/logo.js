@@ -1,6 +1,6 @@
 let logo = "";
 async function Logo() {
-  let data = await fetch("https://raw.githubusercontent.com/Mohammad02120/json-server/main/db.json/logo");
+  let data = await fetch("https://raw.githubusercontent.com/Mohammad02120/dbJson/main/db.json/logo");
   let res = await data.json();
   logo = res.map((elem) => {
   return `

@@ -1,6 +1,6 @@
 let menu = "";
 async function Menu() {
-  let data = await fetch("https://raw.githubusercontent.com/Mohammad02120/json-server/main/db.json/menu");
+  let data = await fetch("https://raw.githubusercontent.com/Mohammad02120/dbJson/main/db.json/menu");
   let res = await data.json();
   menu = res.map((elem) => { 
   return `

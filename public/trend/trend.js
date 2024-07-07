@@ -1,6 +1,6 @@
 let recomen = "";
 async function Recomen() {
-  let data = await fetch("https://raw.githubusercontent.com/Mohammad02120/json-server/main/db.json/card-3");
+  let data = await fetch("https://raw.githubusercontent.com/Mohammad02120/dbJson/main/db.json/card-3");
   let res = await data.json();
   recomen = res.map((elem) => {
     return `
